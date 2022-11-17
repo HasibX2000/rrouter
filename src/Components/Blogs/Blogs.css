@@ -1,0 +1,35 @@
+section{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1rem;
+}
+article{
+    background: crimson;
+padding: 20px;
+}
+.PostBtn{
+    background: #fff;
+    color: crimson;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+@media screen and (min-width:600px) {
+    section{
+
+        grid-template-columns: auto auto;
+      
+    }
+}
+@media screen and (min-width:992px) {
+    section{
+
+        grid-template-columns: repeat(3, 1fr);
+      
+    }
+}
+
+.BlogPost{
+    width:80%;
+    
+    padding: 20px;
+}

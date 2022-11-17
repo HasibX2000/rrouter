@@ -1,0 +1,21 @@
+.NavigPart{
+    background: #fff;
+    width: 100%;
+    position: fixed;
+    top:0;
+    padding: 10px;
+  
+}
+.NavLink{
+    color: crimson;
+    text-decoration: none;
+    margin-left: 20px;
+    padding:10px 20px;
+}
+nav .active,
+.NavLink:hover{
+ 
+    background: crimson;
+    color: #fff;
+    padding: 10px 20px;
+}

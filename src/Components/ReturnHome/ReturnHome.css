@@ -1,0 +1,8 @@
+button{
+    border: none;
+    padding: 10px 20px;
+    background: crimson;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
